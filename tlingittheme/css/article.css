@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+.contentheading, .componentheading{
+	color: #6F1010;
+    font-size: 23px;
+}
+.dropdown-menu.actions{
+	margin-top: 0;
+    position: absolute;
+    right: calc(100% + 20px);
+
+}
+.dropdown-menu.actions li{
+	list-style: none outside none;
+
+}
+.dropdown-menu.actions li>a{
+	background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #000000;
+    display: inline-block;
+    padding: 2px;
+    position: relative;
+    text-decoration: none;
+}
+
+.dropdown-menu.actions li>a span{
+	display:none;
+}
+.dropdown-menu.actions li>a:hover{
+
+ 	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contentpaneopen p {
+    border-bottom: 1px dashed white;
+    padding-bottom: 10px;
+}
+.contentpaneopen p:last-child {
+    border-bottom: medium none;
+}
+
+
+.contentpaneopen{
+	 border-collapse: collapse;
+}
