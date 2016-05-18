@@ -27,7 +27,7 @@ if(!defined('DS'))define('DS', DIRECTORY_SEPARATOR);
 		<?php include 'html'.DS.'top.php';?>
 		</div>
 	</div>
-		<div class="main_c" class=""> <div id="u_title"><?php echo JFactory::getApplication()->getCfg( 'sitename' );?><p>Welcome! Yak’éi yee <u>x</u>wsateení</p></div></div>
+		<div class="main_c" class=""> <div id="u_title"><?php echo JFactory::getApplication()->getCfg( 'sitename' );?><p>Yak’éi yee <u>x</u>wsateení! Welcome!</p></div></div>
 	
 	<div id="background_images">
 		<div class="main_e"></div><div></div>
